@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLoader", "DataLoader\DataLoader.csproj", "{3E62718E-826C-4C76-BF0F-28DFE702D589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSource", "DataSource\DataSource.csproj", "{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "NuGet", ".nuget\NuGet.exe", "{B3F75CD1-EBC6-44CC-8D14-5BE8B5D3DC6F}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = D:\DataLoader\.nuget\NuGet.exe
+		RemoteMachine = DELLXPS
+		StartingDirectory = D:\DataLoader\.nuget
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AF9ACB15-F864-4861-9F23-C66E606FA171}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Debug|x86.Build.0 = Debug|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Release|x86.ActiveCfg = Release|Any CPU
+		{3E62718E-826C-4C76-BF0F-28DFE702D589}.Release|x86.Build.0 = Release|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFEC9C27-A28A-4BA7-8F2F-E1F4D5957500}.Release|x86.Build.0 = Release|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB653CBA-AB8B-4BAF-9362-4582563DCE7C}.Release|x86.Build.0 = Release|Any CPU
+		{B3F75CD1-EBC6-44CC-8D14-5BE8B5D3DC6F}.Debug|Any CPU.ActiveCfg = Release|x86
+		{B3F75CD1-EBC6-44CC-8D14-5BE8B5D3DC6F}.Debug|x86.ActiveCfg = Release|x86
+		{B3F75CD1-EBC6-44CC-8D14-5BE8B5D3DC6F}.Release|Any CPU.ActiveCfg = Release|x86
+		{B3F75CD1-EBC6-44CC-8D14-5BE8B5D3DC6F}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3F75CD1-EBC6-44CC-8D14-5BE8B5D3DC6F} = {AF9ACB15-F864-4861-9F23-C66E606FA171}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3B08F9F-5472-4C86-B42A-40CE93553BF6}
+	EndGlobalSection
+EndGlobal
