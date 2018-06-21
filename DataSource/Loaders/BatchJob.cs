@@ -36,10 +36,17 @@ namespace DataSource.Loaders
 			
 			var filteredValidatedPortfolioRisk = validatedRisk.Where(x => x.IsValid).Select(x => x.Value);
 
+			var filteredInValidatedPortfolioRisk = validatedRisk.Where(x => !x.IsValid).Select(x => x.Value);
+
+
 
 			var configSaveData = ConfigDataHandler.GetSaveDataConfig();
 			var validSaveFileInfo =  configSaveData.SingleOrDefault(x => x.Source.Equals("PortfolioRiskResults"));
 
+
+			validSaveFileInfo.FileName = "ErrorLog.txt";
+			SaveData(filteredInValidatedPortfolioRisk.OfType<PortfolioRisk>(),
+				validSaveFileInfo);
 
 
 			validSaveFileInfo.FileName = "3.txt";			
